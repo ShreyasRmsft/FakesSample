@@ -9,7 +9,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.Fail(Environment.GetVariable("COR_PROFILER_PATH_32") + "***" + Environment.GetVariable("COR_PROFILER_PATH_64"));
+            Assert.Fail(Environment.GetEnvironmentVariable("COR_PROFILER_PATH_32") + "***" + Environment.GetEnvironmentVariable("COR_PROFILER_PATH_64"));
         }
     }
 }
