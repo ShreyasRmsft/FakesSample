@@ -9,7 +9,7 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             Environment.GetVariable("COR_PROFILER_PATH_64");
-            Environment.GetVariable("COR_PROFILER_PATH_64");
+            Environment.GetVariable("COR_PROFILER_PATH_32");
         }
     }
 }
